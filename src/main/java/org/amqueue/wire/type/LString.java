@@ -1,7 +1,12 @@
-package org.amqueue.types;
+package org.amqueue.wire.type;
 
 import java.io.UnsupportedEncodingException;
 
+/**
+ * used to hold chunks of binary data
+ * @author thundercumt
+ *
+ */
 public class LString {
     private byte[] value; //utf8 encoding
     private int offset;

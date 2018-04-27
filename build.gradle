@@ -24,6 +24,10 @@ dependencies {
 
     compile group: 'io.netty', name: 'netty-all', version: '4.1.22.Final'
 
+
+    compile group: 'com.github.jbellis', name: 'jamm', version: '0.3.2'
+    
+    
     // Declare the dependency for your favourite test framework you want to use in your tests.
     // TestNG is also supported by the Gradle Test task. Just change the
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
